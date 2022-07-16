@@ -44,6 +44,7 @@
     "unplugin-auto-import": "^0.9.2",
     "vite": "^3.0.0",
     "vite-plugin-pages": "^0.25.0",
+    "vite-plugin-svg-icons": "^2.0.1",
     "vitest": "^0.18.0"
   }
 }
