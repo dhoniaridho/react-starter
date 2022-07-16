@@ -1,5 +1,6 @@
 import SvgIcon from '@/components/icons'
 import useStore from '@/stores/counter'
+import { Link } from 'react-router-dom'
 
 const Index = () => {
   const { count, increase, decrease } = useStore((state) => state)
@@ -26,6 +27,7 @@ const Index = () => {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Link to="/todos">Todos</Link>
     </div>
   )
 }

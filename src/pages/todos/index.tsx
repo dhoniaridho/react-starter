@@ -1,6 +1,6 @@
-import { Suspense } from 'react'
+import MainLayout from '@/layouts/main-layout'
 import { useQuery } from 'react-query'
-import TodoRepository from './repositories/todo.repository'
+import TodoRepository from '@/app/todos/repositories/todo.repository'
 
 const Todos = () => {
   const {
@@ -18,13 +18,13 @@ const Todos = () => {
   }
 
   return (
-    <Suspense>
+    <MainLayout>
       <ul>
         {todos?.map((todo) => (
           <li key={todo.id}>{todo.title}</li>
         ))}
       </ul>
-    </Suspense>
+    </MainLayout>
   )
 }
 
