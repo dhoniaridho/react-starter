@@ -1,6 +1,7 @@
 import MainLayout from '@/layouts/main-layout'
 import { useQuery } from 'react-query'
-import TodoRepository from '@/app/todos/repositories/todo.repository'
+import TodoRepository from '@features/todos/repositories/todo.repository'
+import { Link } from 'react-router-dom'
 
 const Todos = () => {
   const {
@@ -21,7 +22,9 @@ const Todos = () => {
     <MainLayout>
       <ul>
         {todos?.map((todo) => (
-          <li key={todo.id}>{todo.title}</li>
+          <li key={todo.id}>
+            <Link to={`/todos/${todo.id}`}>{todo.title}</Link>
+          </li>
         ))}
       </ul>
     </MainLayout>
