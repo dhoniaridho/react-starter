@@ -6,11 +6,12 @@ specifiers:
   '@types/node': 18.0.6
 =======
   '@hookform/resolvers': ^2.9.6
+  '@tanstack/react-query': ^4.0.10
   '@testing-library/react': ^13.3.0
   '@types/node': ^18.0.4
+  '@types/nprogress': ^0.2.0
   '@types/react': ^18.0.15
   '@types/react-dom': ^18.0.6
-  '@types/react-helmet': ^6.1.5
   '@typescript-eslint/eslint-plugin': ^5.30.6
   '@typescript-eslint/parser': ^5.30.6
   '@vitejs/plugin-react': ^2.0.0
@@ -25,10 +26,11 @@ specifiers:
   husky: ^8.0.0
   jsdom: ^20.0.0
   npm-run-all: ^4.1.5
+  nprogress: ^0.2.0
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-helmet: ^6.1.0
+  react-helmet-async: ^1.3.0
   react-hook-form: ^7.33.1
   react-query: ^3.39.1
   react-router: ^6.3.0
@@ -45,11 +47,13 @@ specifiers:
 
 dependencies:
   '@hookform/resolvers': 2.9.6_react-hook-form@7.33.1
+  '@tanstack/react-query': 4.0.10_biqbaboplfbrettd7655fr4n2y
   axios: 0.27.2
   framer-motion: 6.5.0_biqbaboplfbrettd7655fr4n2y
+  nprogress: 0.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-helmet: 6.1.0_react@18.2.0
+  react-helmet-async: 1.3.0_biqbaboplfbrettd7655fr4n2y
   react-hook-form: 7.33.1_react@18.2.0
   react-query: 3.39.1_biqbaboplfbrettd7655fr4n2y
   react-router: 6.3.0_react@18.2.0
@@ -61,6 +65,7 @@ dependencies:
 devDependencies:
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.0.4
+<<<<<<< HEAD
 >>>>>>> 4afd9cc (chore(deps): add yup react hook form)
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
@@ -122,6 +127,20 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_g4fztgbwjyq2fvmcscny2sj6fy
   eslint-plugin-react: 7.30.1_eslint@8.20.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.20.0
+=======
+  '@types/nprogress': 0.2.0
+  '@types/react': 18.0.15
+  '@types/react-dom': 18.0.6
+  '@typescript-eslint/eslint-plugin': 5.30.6_2vt5mtrqleafs33qg2bhpmbaqm
+  '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
+  '@vitejs/plugin-react': 2.0.0_vite@3.0.0
+  eslint: 8.19.0
+  eslint-config-google: 0.14.0_eslint@8.19.0
+  eslint-config-prettier: 8.5.0_eslint@8.19.0
+  eslint-plugin-prettier: 4.2.1_7uxdfn2xinezdgvmbammh6ev5i
+  eslint-plugin-react: 7.30.1_eslint@8.19.0
+  eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
+>>>>>>> 7001199 (feat: nprogress)
   husky: 8.0.1
   jsdom: 20.0.0
   npm-run-all: 4.1.5
@@ -573,6 +592,29 @@ packages:
       picomatch: 2.3.1
     dev: true
 
+  /@tanstack/query-core/4.0.10:
+    resolution: {integrity: sha512-9LsABpZXkWZHi4P1ozRETEDXQocLAxVzQaIhganxbNuz/uA3PsCAJxJTiQrknG5htLMzOF5MqM9G10e6DCxV1A==}
+    dev: false
+
+  /@tanstack/react-query/4.0.10_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Wn5QhZUE5wvr6rGClV7KeQIUsdTmYR9mgmMZen7DSRWauHW2UTynFg3Kkf6pw+XlxxOLsyLWwz/Q6q1lSpM3TQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@tanstack/query-core': 4.0.10
+      '@types/use-sync-external-store': 0.0.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
   /@testing-library/dom/8.16.0:
     resolution: {integrity: sha512-uxF4zmnLHHDlmW4l+0WDjcgLVwCvH+OVLpD8Dfp+Bjfz85prwxWGbwXgJdLtkgjD0qfOzkJF9SmA6YZPsMYX4w==}
     engines: {node: '>=12'}
@@ -651,18 +693,16 @@ packages:
     resolution: {integrity: sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==}
     dev: true
 
+  /@types/nprogress/0.2.0:
+    resolution: {integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==}
+    dev: true
+
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
-    dependencies:
-      '@types/react': 18.0.15
-    dev: true
-
-  /@types/react-helmet/6.1.5:
-    resolution: {integrity: sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==}
     dependencies:
       '@types/react': 18.0.15
     dev: true
@@ -685,8 +725,17 @@ packages:
       '@types/node': 18.0.6
     dev: true
 
+<<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/5.30.7_6wltbjakwuqm7awqswigmiuhd4:
     resolution: {integrity: sha512-l4L6Do+tfeM2OK0GJsU7TUcM/1oN/N25xHm3Jb4z3OiDU4Lj8dIuxX9LpVMS9riSXQs42D1ieX7b85/r16H9Fw==}
+=======
+  /@types/use-sync-external-store/0.0.3:
+    resolution: {integrity: sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==}
+    dev: false
+
+  /@typescript-eslint/eslint-plugin/5.30.6_2vt5mtrqleafs33qg2bhpmbaqm:
+    resolution: {integrity: sha512-J4zYMIhgrx4MgnZrSDD7sEnQp7FmhKNOaqaOpaoQ/SfdMfRB/0yvK74hTnvH+VQxndZynqs5/Hn4t+2/j9bADg==}
+>>>>>>> 7001199 (feat: nprogress)
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       '@typescript-eslint/parser': ^5.0.0
@@ -2616,6 +2665,12 @@ packages:
       side-channel: 1.0.4
     dev: true
 
+  /invariant/2.2.4:
+    resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
   /is-accessor-descriptor/0.1.6:
     resolution: {integrity: sha512-e1BM1qnDbMRG3ll2U9dSK0UMHuWOs3pY3AtcFsmvwPtKL3MML/Q86i+GilLfvqEs4GW+ExB91tQ3Ig9noDIZ+A==}
     engines: {node: '>=0.10.0'}
@@ -3304,6 +3359,10 @@ packages:
       string.prototype.padend: 3.1.3
     dev: true
 
+  /nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
+    dev: false
+
   /nth-check/2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
     dependencies:
@@ -3689,16 +3748,19 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: false
 
-  /react-helmet/6.1.0_react@18.2.0:
-    resolution: {integrity: sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==}
+  /react-helmet-async/1.3.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-9jZ57/dAn9t3q6hneQS0wukqC2ENOBgMNVEhb/ZG9ZSxUetzVIw4iAmEU38IaVg3QGYauQPhSeUTuIUtFglWpg==}
     peerDependencies:
-      react: '>=16.3.0'
+      react: ^16.6.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      object-assign: 4.1.1
+      '@babel/runtime': 7.18.6
+      invariant: 2.2.4
       prop-types: 15.8.1
       react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       react-fast-compare: 3.2.0
-      react-side-effect: 2.1.2_react@18.2.0
+      shallowequal: 1.1.0
     dev: false
 
   /react-hook-form/7.33.1_react@18.2.0:
@@ -3759,14 +3821,6 @@ packages:
       react: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.2.0
-    dev: false
-
-  /react-side-effect/2.1.2_react@18.2.0:
-    resolution: {integrity: sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==}
-    peerDependencies:
-      react: ^16.3.0 || ^17.0.0 || ^18.0.0
-    dependencies:
       react: 18.2.0
     dev: false
 
@@ -4013,6 +4067,10 @@ packages:
       is-plain-object: 2.0.4
       split-string: 3.1.0
     dev: true
+
+  /shallowequal/1.1.0:
+    resolution: {integrity: sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==}
+    dev: false
 
   /shebang-command/1.2.0:
     resolution: {integrity: sha512-EV3L1+UQWGor21OmnvojK36mhg+TyIKDh3iFBKBohr5xeXIhNBcx8oWdgkTEEQ+BEFFYdLRuqMfd5L84N1V5Vg==}
@@ -4619,6 +4677,14 @@ packages:
     resolution: {integrity: sha512-Am1ousAhSLBeB9cG/7k7r2R0zj50uDRlZHPGbazid5s9rlF1F/QKYObEKSIunSjIOkJZqwRRLpvewjEkM7pSqg==}
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}

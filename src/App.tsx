@@ -1,11 +1,17 @@
+import nProgress from 'nprogress'
 import { Suspense } from 'react'
 import routes from '~react-pages'
 import ReactQueryProvider from './modules/react-query'
+import 'nprogress/nprogress.css'
+import { HeadProvider } from './modules/head'
+import NProgress from './modules/n-progress'
 
 const App = () => {
   return (
     <ReactQueryProvider>
-      <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>
+      <HeadProvider>
+        <NProgress>{useRoutes(routes)}</NProgress>
+      </HeadProvider>
     </ReactQueryProvider>
   )
 }
