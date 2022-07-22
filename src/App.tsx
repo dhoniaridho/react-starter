@@ -1,5 +1,3 @@
-import nProgress from 'nprogress'
-import { Suspense } from 'react'
 import routes from '~react-pages'
 import ReactQueryProvider from './modules/react-query'
 import 'nprogress/nprogress.css'
