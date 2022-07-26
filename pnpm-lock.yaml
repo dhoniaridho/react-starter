@@ -41,7 +41,7 @@ specifiers:
   vite-plugin-svg-icons: 2.0.1
   vitest: 0.19.1
   yup: ^0.32.11
-  zustand: 4.0.0-rc.1
+  zustand: 4.0.0
 
 dependencies:
   '@hookform/resolvers': 2.9.6_react-hook-form@7.33.1
@@ -58,7 +58,7 @@ dependencies:
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   yup: 0.32.11
-  zustand: 4.0.0-rc.1_react@18.2.0
+  zustand: 4.0.0_react@18.2.0
 
 devDependencies:
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
@@ -4635,14 +4635,6 @@ packages:
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
 
-  /use-sync-external-store/1.1.0_react@18.2.0:
-    resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
-    dev: false
-
   /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
@@ -4932,8 +4924,8 @@ packages:
       toposort: 2.0.2
     dev: false
 
-  /zustand/4.0.0-rc.1_react@18.2.0:
-    resolution: {integrity: sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw==}
+  /zustand/4.0.0_react@18.2.0:
+    resolution: {integrity: sha512-OrsfQTnRXF1LZ9/vR/IqN9ws5EXUhb149xmPjErZnUrkgxS/gAHGy2dPNIVkVvoxrVe1sIydn4JjF0dYHmGeeQ==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
@@ -4945,5 +4937,5 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      use-sync-external-store: 1.1.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
