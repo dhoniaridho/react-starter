@@ -35,7 +35,7 @@ specifiers:
   react-router-dom: ^6.3.0
   react-use: ^17.4.0
   typescript: 4.7.4
-  unplugin-auto-import: 0.11.0
+  unplugin-auto-import: 0.11.1
   vite: 3.0.4
   vite-plugin-pages: 0.25.0
   vite-plugin-svg-icons: 2.0.1
@@ -82,7 +82,7 @@ devDependencies:
   nprogress: 0.2.0
   prettier: 2.7.1
   typescript: 4.7.4
-  unplugin-auto-import: 0.11.0_vite@3.0.4
+  unplugin-auto-import: 0.11.1_vite@3.0.4
   vite: 3.0.4
   vite-plugin-pages: 0.25.0_vite@3.0.4
   vite-plugin-svg-icons: 2.0.1_vite@3.0.4
@@ -4619,8 +4619,8 @@ packages:
       detect-node: 2.1.0
     dev: false
 
-  /unplugin-auto-import/0.11.0_vite@3.0.4:
-    resolution: {integrity: sha512-uIGNwIiuf6vdgGExvfVgaYKpRjeUZDNmCEvRvAwlwsOfiSiIkmQIq2TSPKcHGcP5OBD3k+PAP28qIs7m2ozzzg==}
+  /unplugin-auto-import/0.11.1_vite@3.0.4:
+    resolution: {integrity: sha512-3KMbjc3Sv2h1osgQ16uKmD2XHb8MLK3Lj5Twzo3x2vDexYdNKjVljLZUX+eT5cvh2f1VzJR77dkzDhdEi9+1uw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
@@ -4633,7 +4633,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.26.2
       unimport: 0.6.5_vite@3.0.4
-      unplugin: 0.8.1_vite@3.0.4
+      unplugin: 0.9.0_vite@3.0.4
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -4643,6 +4643,30 @@ packages:
 
   /unplugin/0.8.1_vite@3.0.4:
     resolution: {integrity: sha512-o7rUZoPLG1fH4LKinWgb77gDtTE6mw/iry0Pq0Z5UPvZ9+HZ1/4+7fic7t58s8/CGkPrDpGq+RltO+DmswcR4g==}
+    peerDependencies:
+      esbuild: '>=0.13'
+      rollup: ^2.50.0
+      vite: ^2.3.0 || ^3.0.0-0
+      webpack: 4 || 5
+    peerDependenciesMeta:
+      esbuild:
+        optional: true
+      rollup:
+        optional: true
+      vite:
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      acorn: 8.8.0
+      chokidar: 3.5.3
+      vite: 3.0.4
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.4.4
+    dev: true
+
+  /unplugin/0.9.0_vite@3.0.4:
+    resolution: {integrity: sha512-6o7q8Y9yxdPi5yCPmRuFfeNnVzGumRNZSK6hIkvZ6hd0cfigVdm0qBx/GgQ/NEjs54eUV1qTjvMYKRs9yh3rzw==}
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
