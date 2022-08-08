@@ -6,7 +6,7 @@ specifiers:
   '@testing-library/react': 13.3.0
   '@types/node': 18.0.6
   '@types/nprogress': ^0.2.0
-  '@types/react': 18.0.16
+  '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@types/react-helmet': 6.1.5
   '@typescript-eslint/eslint-plugin': 5.32.0
@@ -64,7 +64,7 @@ devDependencies:
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.0.6
   '@types/nprogress': 0.2.0
-  '@types/react': 18.0.16
+  '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@types/react-helmet': 6.1.5
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
@@ -644,17 +644,17 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.16
+      '@types/react': 18.0.17
     dev: true
 
   /@types/react-helmet/6.1.5:
     resolution: {integrity: sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==}
     dependencies:
-      '@types/react': 18.0.16
+      '@types/react': 18.0.17
     dev: true
 
-  /@types/react/18.0.16:
-    resolution: {integrity: sha512-3vX1dzVucqc2nhXtzyaParTIIRZeNbisRqLE7QdeLomVybEyeiuAouzZXgz71P+2kbJOqj3dy0fzoATg2I06GQ==}
+  /@types/react/18.0.17:
+    resolution: {integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
