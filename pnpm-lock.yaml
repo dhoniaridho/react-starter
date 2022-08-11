@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.30.1
   eslint-plugin-react-hooks: 4.6.0
-  framer-motion: 7.0.2
+  framer-motion: 7.1.0
   husky: 8.0.1
   jsdom: 20.0.0
   npm-run-all: 4.1.5
@@ -47,7 +47,7 @@ dependencies:
   '@hookform/resolvers': 2.9.6_react-hook-form@7.33.1
   '@tanstack/react-query': 4.0.10_biqbaboplfbrettd7655fr4n2y
   axios: 0.27.2
-  framer-motion: 7.0.2_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 7.1.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
@@ -2271,8 +2271,8 @@ packages:
       map-cache: 0.2.2
     dev: true
 
-  /framer-motion/7.0.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-q3bTaBPWGR7G/pvsEYI8NZlIsLeznCO6uw4+dZNXZmciUSF16yYg3LKENnPOGEKOm2Zvwrs9b3n+GzGHqGQWBw==}
+  /framer-motion/7.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-It0LIsooAr83kGwT55sRRo5pQ/chbvPKGeGmHCl1ARVeWGaeFFfNWSoSF1UgsjWtni/lsUxNsf2BCg1Hy7W3Ag==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
