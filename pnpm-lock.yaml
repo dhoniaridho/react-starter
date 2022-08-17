@@ -1,18 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@hookform/resolvers': ^2.9.6
-  '@tanstack/react-query': ^4.0.10
+  '@hookform/resolvers': 2.9.7
+  '@tanstack/react-query': 4.2.1
   '@testing-library/react': 13.3.0
   '@types/node': 18.0.6
-  '@types/nprogress': ^0.2.0
+  '@types/nprogress': 0.2.0
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@types/react-helmet': 6.1.5
   '@typescript-eslint/eslint-plugin': 5.33.1
   '@typescript-eslint/parser': 5.33.1
   '@vitejs/plugin-react': 2.0.1
-  axios: ^0.27.2
+  axios: 0.27.2
   eslint: 8.22.0
   eslint-config-google: 0.14.0
   eslint-config-prettier: 8.5.0
@@ -23,37 +23,37 @@ specifiers:
   husky: 8.0.1
   jsdom: 20.0.0
   npm-run-all: 4.1.5
-  nprogress: ^0.2.0
+  nprogress: 0.2.0
   prettier: 2.7.1
-  react: ^18.2.0
-  react-dom: ^18.2.0
-  react-helmet: ^6.1.0
-  react-helmet-async: ^1.3.0
-  react-hook-form: ^7.33.1
-  react-query: ^3.39.1
-  react-router: ^6.3.0
-  react-router-dom: ^6.3.0
-  react-use: ^17.4.0
+  react: 18.2.0
+  react-dom: 18.2.0
+  react-helmet: 6.1.0
+  react-helmet-async: 1.3.0
+  react-hook-form: 7.34.2
+  react-query: 3.39.2
+  react-router: 6.3.0
+  react-router-dom: 6.3.0
+  react-use: 17.4.0
   typescript: 4.7.4
   unplugin-auto-import: 0.11.1
   vite: 3.0.7
   vite-plugin-pages: 0.25.0
   vite-plugin-svg-icons: 2.0.1
   vitest: 0.22.0
-  yup: ^0.32.11
+  yup: 0.32.11
   zustand: 4.0.0
 
 dependencies:
-  '@hookform/resolvers': 2.9.6_react-hook-form@7.33.1
-  '@tanstack/react-query': 4.0.10_biqbaboplfbrettd7655fr4n2y
+  '@hookform/resolvers': 2.9.7_react-hook-form@7.34.2
+  '@tanstack/react-query': 4.2.1_biqbaboplfbrettd7655fr4n2y
   axios: 0.27.2
   framer-motion: 7.1.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
   react-helmet-async: 1.3.0_biqbaboplfbrettd7655fr4n2y
-  react-hook-form: 7.33.1_react@18.2.0
-  react-query: 3.39.1_biqbaboplfbrettd7655fr4n2y
+  react-hook-form: 7.34.2_react@18.2.0
+  react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   react-router: 6.3.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
@@ -402,12 +402,12 @@ packages:
       - supports-color
     dev: true
 
-  /@hookform/resolvers/2.9.6_react-hook-form@7.33.1:
-    resolution: {integrity: sha512-f4VxF8w9rdX0WsDCk3FW1dGPj/Sj8+1Ulcgtm5ymgWEpbA/fjY+NUDh+L9hftmxDgP8+EJFtF+qFK4gPEXVrVQ==}
+  /@hookform/resolvers/2.9.7_react-hook-form@7.34.2:
+    resolution: {integrity: sha512-BloehX3MOLwuFEwT4yZnmolPjVmqyn8VsSuodLfazbCIqxBHsQ4qUZsi+bvNNCduRli1AGWFrkDLGD5QoNzsoA==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.33.1_react@18.2.0
+      react-hook-form: 7.34.2_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.10.4:
@@ -547,8 +547,8 @@ packages:
     resolution: {integrity: sha512-9LsABpZXkWZHi4P1ozRETEDXQocLAxVzQaIhganxbNuz/uA3PsCAJxJTiQrknG5htLMzOF5MqM9G10e6DCxV1A==}
     dev: false
 
-  /@tanstack/react-query/4.0.10_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Wn5QhZUE5wvr6rGClV7KeQIUsdTmYR9mgmMZen7DSRWauHW2UTynFg3Kkf6pw+XlxxOLsyLWwz/Q6q1lSpM3TQ==}
+  /@tanstack/react-query/4.2.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-w02oTOYpoxoBzD/onAGRQNeLAvggLn7WZjS811cT05WAE/4Q3br0PTp388M7tnmyYGbgOOhFq0MkhH0wIfAKqA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3776,8 +3776,8 @@ packages:
       react-side-effect: 2.1.2_react@18.2.0
     dev: false
 
-  /react-hook-form/7.33.1_react@18.2.0:
-    resolution: {integrity: sha512-ydTfTxEJdvgjCZBj5DDXRc58oTEfnFupEwwTAQ9FSKzykEJkX+3CiAkGtAMiZG7IPWHuzgT6AOBfogiKhUvKgg==}
+  /react-hook-form/7.34.2_react@18.2.0:
+    resolution: {integrity: sha512-1lYWbEqr0GW7HHUjMScXMidGvV0BE2RJV3ap2BL7G0EJirkqpccTaawbsvBO8GZaB3JjCeFBEbnEWI1P8ZoLRQ==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
@@ -3792,8 +3792,8 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-query/3.39.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-qYKT1bavdDiQZbngWZyPotlBVzcBjDYEJg5RQLBa++5Ix5jjfbEYJmHSZRZD+USVHUSvl/ey9Hu+QfF1QAK80A==}
+  /react-query/3.39.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: '*'
