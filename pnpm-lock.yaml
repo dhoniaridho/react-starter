@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@hookform/resolvers': 2.9.7
-  '@tanstack/react-query': 4.2.1
+  '@tanstack/react-query': 4.2.3
   '@testing-library/react': 13.3.0
   '@types/node': 18.0.6
   '@types/nprogress': 0.2.0
@@ -45,7 +45,7 @@ specifiers:
 
 dependencies:
   '@hookform/resolvers': 2.9.7_react-hook-form@7.34.2
-  '@tanstack/react-query': 4.2.1_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-query': 4.2.3_biqbaboplfbrettd7655fr4n2y
   axios: 0.27.2
   framer-motion: 7.2.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -543,12 +543,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@tanstack/query-core/4.0.10:
-    resolution: {integrity: sha512-9LsABpZXkWZHi4P1ozRETEDXQocLAxVzQaIhganxbNuz/uA3PsCAJxJTiQrknG5htLMzOF5MqM9G10e6DCxV1A==}
+  /@tanstack/query-core/4.2.3:
+    resolution: {integrity: sha512-zdt5lYWs1dZaA3IxJbCgtAfHZJScRZONpiLL7YkeOkrme5MfjQqTpjq7LYbzpyuwPOh2Jx68le0PLl57JFv5hQ==}
     dev: false
 
-  /@tanstack/react-query/4.2.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-w02oTOYpoxoBzD/onAGRQNeLAvggLn7WZjS811cT05WAE/4Q3br0PTp388M7tnmyYGbgOOhFq0MkhH0wIfAKqA==}
+  /@tanstack/react-query/4.2.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-JLaMOxoJTkiAu7QpevRCt2uI/0vd3E8K/rSlCuRgWlcW5DeJDFpDS5kfzmLO5MOcD97fgsJRrDbxDORxR1FdJA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -559,7 +559,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 4.0.10
+      '@tanstack/query-core': 4.2.3
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
