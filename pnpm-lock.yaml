@@ -41,7 +41,7 @@ specifiers:
   vite-plugin-svg-icons: 2.0.1
   vitest: 0.25.3
   yup: 0.32.11
-  zustand: 4.1.1
+  zustand: 4.3.6
 
 dependencies:
   '@hookform/resolvers': 2.9.8_react-hook-form@7.36.0
@@ -58,7 +58,7 @@ dependencies:
   react-router-dom: 6.4.1_biqbaboplfbrettd7655fr4n2y
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   yup: 0.32.11
-  zustand: 4.1.1_react@18.2.0
+  zustand: 4.3.6_react@18.2.0
 
 devDependencies:
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
@@ -5022,8 +5022,8 @@ packages:
       toposort: 2.0.2
     dev: false
 
-  /zustand/4.1.1_react@18.2.0:
-    resolution: {integrity: sha512-h4F3WMqsZgvvaE0n3lThx4MM81Ls9xebjvrABNzf5+jb3/03YjNTSgZXeyrvXDArMeV9untvWXRw1tY+ntPYbA==}
+  /zustand/4.3.6_react@18.2.0:
+    resolution: {integrity: sha512-6J5zDxjxLE+yukC2XZWf/IyWVKnXT9b9HUv09VJ/bwGCpKNcaTqp7Ws28Xr8jnbvnZcdRaidztAPsXFBIqufiw==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
